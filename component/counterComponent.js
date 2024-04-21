@@ -15,7 +15,7 @@ const CounterComponent = () => {
   };
 
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor:'aqua'}}>
       <Text style={{fontWeight: 'bold', fontSize: 40}}>Counter: {counter}</Text>
       <Button
         title="Increase Counter"
@@ -26,6 +26,7 @@ const CounterComponent = () => {
         title="Decrease Counter"
         onPress={() => handleCounterUpdate('decrement')}
         color={'blue'}
+        mode="contained"
       />
     </View>
   );

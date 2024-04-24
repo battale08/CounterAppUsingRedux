@@ -15,7 +15,7 @@ const CounterComponent = () => {
   };
 
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor:'aqua'}}>
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor:'lightblue'}}>
       <Text style={{fontWeight: 'bold', fontSize: 40}}>Counter: {counter}</Text>
       <Button
         title="Increase Counter"
